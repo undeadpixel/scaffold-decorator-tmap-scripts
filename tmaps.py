@@ -331,7 +331,7 @@ if __name__ == "__main__":
     create_drd2_tmap("ss_nd", node_size=1 / 60)
     create_drd2_tmap("ms_nd", is_multistep=True, node_size=1 / 80)
 
-    # create_chembl_tmap("validation", is_validation=True)
-    # create_chembl_tmap("all_validation", is_validation=True, is_multistep=True)
-    # create_chembl_tmap("non_dataset")
-    # create_chembl_tmap("all_non_dataset", is_multistep=True)
+    # create_chembl_tmap("ss_vs", is_validation=True)
+    # create_chembl_tmap("ms_vs", is_validation=True, is_multistep=True)
+    # create_chembl_tmap("ss_nd")
+    # create_chembl_tmap("ms_nd", is_multistep=True)
