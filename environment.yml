@@ -1,0 +1,16 @@
+name: scaffold-decorator
+channels:
+  - defaults
+  - rdkit
+  - tmap
+dependencies:
+  - python=3.6
+  - rdkit
+  - matplotlib = 3.1
+  - seaborn
+  - pip
+  - tmap
+  - numpy =1.18
+  - pip:
+      - molsets
+      - faerun
